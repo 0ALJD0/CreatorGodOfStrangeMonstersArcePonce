@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Cosntructores Específicos">
+    <Position X="8.781" Y="4.427" Height="0.312" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Clase Director/Interfaz">
+    <Position X="11.604" Y="1.354" Height="0.313" Width="1.533" />
+  </Comment>
+  <Comment CommentText="Constructor">
+    <Position X="6.729" Y="0.635" Height="0.417" Width="1.179" />
+  </Comment>
+  <Comment CommentText="Cliente">
+    <Position X="4.708" Y="0.521" Height="0.312" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Producto Entregable de los Constructores Específicos">
+    <Position X="4.865" Y="8.531" Height="0.635" Width="1.565" />
+  </Comment>
+  <Class Name="BuilderTestExample.Summoner">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Summoner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderTestExample.WaterMonster">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAAAAAAAAAAAAAAAAAAAAAABAAgAAAQAAAgA=</HashCode>
+      <FileName>WaterMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderTestExample.SteelMonster">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAAAAAAAAAAAAAAAAAAAAAABAAgAAAQAAAgA=</HashCode>
+      <FileName>SteelMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderTestExample.MonsterGenerate">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAAAAAAAAAAAAAAAAAAAAAABAAgAAAQIAAgA=</HashCode>
+      <FileName>MonsterGenerate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderTestExample.Monster">
+    <Position X="6.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACABAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Monster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderTestExample.FireMonster">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAAAAAAAAAAAAAAAAAAAAAABAAgAAAQAAAgA=</HashCode>
+      <FileName>FireMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderTestExample.DragonMonster">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAAAAAAAAAAAAAAAAAAAAAABAAgAAAQAAAgA=</HashCode>
+      <FileName>DragonMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderTestExample.Black_Mirror">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAABAABQQAAAAAAAAAAAABAAIAAA=</HashCode>
+      <FileName>Black_Mirror.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
