@@ -1,0 +1,13 @@
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\bin\Debug\netcoreapp3.1\BuilderTestExample.exe
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\bin\Debug\netcoreapp3.1\BuilderTestExample.deps.json
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\bin\Debug\netcoreapp3.1\BuilderTestExample.runtimeconfig.json
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\bin\Debug\netcoreapp3.1\BuilderTestExample.runtimeconfig.dev.json
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\bin\Debug\netcoreapp3.1\BuilderTestExample.dll
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\bin\Debug\netcoreapp3.1\BuilderTestExample.pdb
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\obj\Debug\netcoreapp3.1\BuilderTestExample.csprojAssemblyReference.cache
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\obj\Debug\netcoreapp3.1\BuilderTestExample.AssemblyInfoInputs.cache
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\obj\Debug\netcoreapp3.1\BuilderTestExample.AssemblyInfo.cs
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\obj\Debug\netcoreapp3.1\BuilderTestExample.csproj.CoreCompileInputs.cache
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\obj\Debug\netcoreapp3.1\BuilderTestExample.dll
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\obj\Debug\netcoreapp3.1\BuilderTestExample.pdb
+C:\Users\22-B006LA\source\repos\BuilderTestExample\BuilderTestExample\obj\Debug\netcoreapp3.1\BuilderTestExample.genruntimeconfig.cache
