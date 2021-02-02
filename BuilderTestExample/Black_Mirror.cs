@@ -25,7 +25,7 @@ namespace BuilderTestExample
             //Repetición sí el usuario lo indica
             do
             {
-                //Presentación y elección del tipo de montruo.
+                //Presentación y elección del tipo de monstruo.
                 Console.WriteLine(" Welcome to \"Black Mirror\"");
                 Console.WriteLine(" I'm the summoner of monsters");
                 Console.WriteLine(" Do you want to get your first monster?");
