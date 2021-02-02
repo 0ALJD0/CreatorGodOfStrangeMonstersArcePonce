@@ -8,7 +8,11 @@ Año lectivo: 2020(2)
 
 using System;
 namespace BuilderTestExample
-{
+{   
+    /*
+     * 6to
+     * CLIENTE
+     */
     class Black_Mirror
     {
 
@@ -18,8 +22,10 @@ namespace BuilderTestExample
             int n;
             string k;
 
+            //Repetición sí el usuario lo indica
             do
             {
+                //Presentación y elección del tipo de montruo.
                 Console.WriteLine(" Welcome to \"Black Mirror\"");
                 Console.WriteLine(" I'm the summoner of monsters");
                 Console.WriteLine(" Do you want to get your first monster?");
@@ -31,7 +37,8 @@ namespace BuilderTestExample
                 Console.WriteLine(" Fire ===== 4");
                 Console.WriteLine(" Please, write the number and then press Enter");
                 n = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("\n\n");
+                Console.WriteLine("\n");
+                //Pregunta para continuar, para cada una de las alternaticas
                 switch (n)
                 {
                     case 1:
@@ -53,9 +60,10 @@ namespace BuilderTestExample
                 }
                 Console.WriteLine("Enter \"Y\" equal yes or \"N\" equal no");
                 k = Console.ReadLine();
-                Console.WriteLine("\n\n");
+                Console.WriteLine("\n");
             } while (k == "Y" || k == "y");
 
+            //Creación del tipo de monstruo elegido por el usuario.
             switch (n)
             {
                 case 1:
@@ -75,13 +83,14 @@ namespace BuilderTestExample
 
 
         }
+
+        //Metodos para la creación de los difenrentes tipos de mosntruo
         public static void Steel_Monster()
         {
             Summoner summoner = new Summoner();
-            MonsterGenerate generator;
-            string nature, name, sex;
+            MonsterGenerate generator = new SteelMonster();
 
-            generator = new SteelMonster();
+            string nature, name, sex;
 
             nature = Nature();
 
@@ -96,11 +105,9 @@ namespace BuilderTestExample
         public static void Dragon_Monster()
         {
             Summoner summoner = new Summoner();
-            MonsterGenerate generator;
+            MonsterGenerate generator = new DragonMonster();
+
             string nature, name, sex;
-
-            generator = new DragonMonster();
-
             nature = Nature();
 
             name = Name();
@@ -114,10 +121,9 @@ namespace BuilderTestExample
         public static void Water_Monster()
         {
             Summoner summoner = new Summoner();
-            MonsterGenerate generator;
-            string nature, name, sex;
+            MonsterGenerate generator = new WaterMonster();
 
-            generator = new WaterMonster();
+            string nature, name, sex;
 
             nature = Nature();
 
@@ -132,10 +138,9 @@ namespace BuilderTestExample
         public static void Fire_Monster()
         {
             Summoner summoner = new Summoner();
-            MonsterGenerate generator;
-            string nature, name, sex;
+            MonsterGenerate generator = new FireMonster();
 
-            generator = new FireMonster();
+            string nature, name, sex;
 
             nature = Nature();
 
@@ -147,6 +152,8 @@ namespace BuilderTestExample
             summoner.Materializer(generator, nature, name, sex);
             generator.Monster.Show();
         }
+
+        //Método para la selección de la naturaleza del monstruo.
         public static string Nature()
         {
             string nature;
@@ -173,6 +180,8 @@ namespace BuilderTestExample
             }
             return nature;
         }
+
+        //Metodo para la asignación del atributo nombre por parte del usuario.
         public static string Name()
         {
             string name;
@@ -182,9 +191,11 @@ namespace BuilderTestExample
 
             return name;
         }
+
+        //Método para la selección del sexo del monstruo.
         public static string Sex()
         {
-            string sex = "";
+            string sex;
             Console.WriteLine("Finaly, choose your sex, yes... your sex ");
             Console.WriteLine("Male == M or Fermale == F");
             sex = Console.ReadLine();
